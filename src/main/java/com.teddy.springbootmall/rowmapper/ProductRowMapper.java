@@ -1,8 +1,8 @@
-package rowmapper;
+package com.teddy.springbootmall.rowmapper;
+
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import com.teddy.springbootmall.model.Product;
-
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
